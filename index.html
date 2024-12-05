@@ -5,38 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yiming Tang's Website</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-    }
-    .container {
-      padding: 50px;
-    }
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 3px solid #555;
-    }
-    h1 {
-      font-size: 2.5rem;
-      color: #333;
-    }
-    p {
-      font-size: 1.2rem;
-      color: #666;
-      max-width: 600px;
-      margin: 20px auto;
-    }
-  </style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 800px; /* Makes the text area wider */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px;
+    text-align: left; /* Aligns text to the left for better readability */
+  }
+
+  .profile-pic {
+    width: 200px; /* Adjust the picture width */
+    height: 200px; /* Adjust the picture height */
+    object-fit: cover; /* Ensures the image fits within the box without distortion */
+    border-radius: 50%; /* Creates a circular image */
+    border: 3px solid #555; /* Optional border for styling */
+    margin: 20px auto; /* Centers the image with spacing */
+    display: block;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center; /* Centers the header */
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6; /* Improves readability with better line spacing */
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none; /* Removes underline */
+  }
+
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover for better interactivity */
+  }
+</style>
+
 </head>
 <body>
   <div class="container">
     <img src="asset/profile.JPG" alt="Yiming Tang" class="profile-pic">
-    <h1>Yiming Tang</h1>
+    <h1>Yiming Tang (唐一茗)</h1>
     <p>
       Welcome to my page! I hold a Master’s degree in Computer Science from the 
       <strong>University of Southern California</strong>, where I also work in the 
